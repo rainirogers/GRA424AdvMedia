@@ -1,91 +1,16 @@
 html {
-    --gray: #707070;
+    --gray: #000000;
     scroll-behavior: smooth;
 }
 
-header {
+h1 {
     font-family: 'Source Sans', sans-serif;
-    color:#707070;
+    color:#000000;
     font-size: 20px;
 }
 
-.programbook {
+p {
     font-family: 'Source Sans', sans-serif;
-    color:#707070;
-    font-size: 15px;
-    padding-bottom: 15px;
-}
-
-body {
-    font-family: 'Source Sans', sans-serif;
-    color:#707070;
-    font-size: 14.5px;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: [full-start] minmax(1rem, 25px) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 25px) [full-end];
-}
-
-.grid > * {
-    grid-column: main;
-}
-
-.myname {
-    padding-top: 31px;
-    padding-bottom: 23px;
-    text-decoration: none;
-    color: #707070;
-}
-
-a:link {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-a:visited {
-    text-decoration: none;
-    color: #707070;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 20px;
-    padding-left: 17px;
-    padding-right: 25px;
-}
-
-.column {
-    flex: 50%;
-    padding-left: 8px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
-
-.class {
-    font-family: 'Source Sans', sans-serif;
-    color: #707070;
-    font-size: 12px;
-}
-
-.copyright {
-    font-family: 'Source Sans', sans-serif;
-    color: #707070;
-    font-size: 14.5px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-.rinddescription {
-    font-family: 'Source Sans', sans-serif;
-    color:#707070;
-    font-size: 14.5px;
-    padding-top: 1rem;
+    color: #000000;
+    font-size: 10px;
 }
