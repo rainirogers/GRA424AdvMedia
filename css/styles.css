@@ -13,6 +13,7 @@ h2 {
     font-family: 'Source Sans', sans-serif;
     color:#000000;
     font-size: 20px;
+    padding-bottom: 1rem;
 }
 
 p {
@@ -26,4 +27,10 @@ ol {
     font-family: 'Source Sans', sans-serif;
     color:#000000;
     font-size: 14.5px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: var(--black);
 }
