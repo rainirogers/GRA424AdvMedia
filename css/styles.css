@@ -43,21 +43,57 @@ ol {
 }
 .exterior {
     display: flex;
-    background: #000;
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+    background: #fff;
     width: 71.428571vw;
     height: 71.428571vh;
     margin: auto;
 }
 .interior {
     display: flex;
-    background: #fff;
+    background: #000;
     width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
 }
 .interiorinterior {
     display: flex;
-    background: black;
+    background: #fff;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+.secondwebpage {
+    display: flex;
+    background: #fff;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+.secondexterior {
+    display: flex;
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+    background: #fff;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    margin: auto;
+}
+.secondinterior {
+    display: flex;
+    border-style: solid;
+    border-color: #000;
+    border-width: 1px;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+.secondinteriorinterior {
+    display: flex;
+    background: #000;
     width: 14.285714vw;
     height: 14.285714vh;
     margin: auto;
