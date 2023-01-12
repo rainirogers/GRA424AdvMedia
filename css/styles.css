@@ -1,5 +1,6 @@
 html {
     --black: #000000;
+    display: block;
     scroll-behavior: smooth;
 }
 
@@ -29,28 +30,33 @@ ol {
     font-size: 14.5px;
 }
 
-.page {
+.body {
+    display: block;
+    margin: 8px;
+}
+
+.webpage {
     display: flex;
     background: #fff;
     width: 100vw;
     height: 100vh;
     margin: auto;
 }
-.square {
+.exterior {
     display: flex;
     background: #000;
     width: 71.428571vw;
     height: 71.428571vh;
     margin: auto;
 }
-.inner {
+.interior {
     display: flex;
     background: #fff;
     width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
 }
-.small {
+.interiorinterior {
     display: flex;
     background: black;
     width: 14.285714vw;
