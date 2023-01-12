@@ -86,7 +86,7 @@ ol {
     display: flex;
     border-style: solid;
     border-color: #dedede;
-    border-width: 1px;
+    border-width: .25px;
     width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
@@ -114,8 +114,24 @@ ol {
 }
 .lineinterior {
     display: flex;
-    background: #010203;
+    border-style: solid;
+    border-color: #dedede;
+    border-width: 1px;
     width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+.rectangle1 {
+    display: flex;
+    background: #010203;
+    width: 3.5714525vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+.rectangle2 {
+    display: flex;
+    background: #010203;
+    width: 3.5714525vw;
     height: 42.857143vh;
     margin: auto;
 }
