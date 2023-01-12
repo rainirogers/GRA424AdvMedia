@@ -98,3 +98,24 @@ ol {
     height: 14.285714vh;
     margin: auto;
 }
+.linewebpage {
+    display: flex;
+    background: #dedede;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+.lineexterior {
+    display: flex;
+    background: #fff;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    margin: auto;
+}
+.lineinterior {
+    display: flex;
+    background: #010203;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+}
