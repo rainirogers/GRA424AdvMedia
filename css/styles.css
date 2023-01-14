@@ -173,8 +173,8 @@ ol {
     display: flex;
     background: red;
     width: 14.285714vw;
-    height: 6.7515vh;
-    clip-path: polygon(0% 100%, 100% 100%, 0% 0%);
+    height: 14.285714vh;
+    clip-path: polygon(0% 100%, 100% 100%, 70% 20%, 30% 30%, 40% 40%, 0% 0%);
     margin: auto;
 }
 .smallrectangle6 {
