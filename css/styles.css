@@ -176,3 +176,24 @@ ol {
     height: 14.285714vh;
     margin: auto;
 }
+.smallrectangle6 {
+    display: flex;
+    background: red;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+.smallrectangle7 {
+    display: flex;
+    background: red;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+}
+.smallrectangle8 {
+    display: flex;
+    background: red;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: auto;
+}
