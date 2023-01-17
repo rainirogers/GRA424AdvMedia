@@ -201,3 +201,39 @@ ol {
     clip-path: polygon(100% 100%, 0 100%, 0 62.7%, 17% 63%, 17% 39.8%, 0 40%, 0 0, 100% 0, 100% 34%, 75% 34%, 75% 39.3%, 100% 38.95%, 100% 64.4%, 75% 64%, 75% 67%, 100% 67%);
     margin: auto;
 }
+.addition1 {
+    display: flex;
+    border-style: solid;
+    border-color: red;
+    border-width: .25px;
+    width: 1.68vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+.addition2 {
+    display: flex;
+    border-style: solid;
+    border-color: red;
+    border-width: .25px;
+    width: 2.38vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+.addition3 {
+    display: flex;
+    border-style: solid;
+    border-color: red;
+    border-width: .25px;
+    width: 2.49vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+.addition4 {
+    display: flex;
+    border-style: solid;
+    border-color: red;
+    border-width: .25px;
+    width: 1.46vw;
+    height: 42.857143vh;
+    margin: auto;
+}
