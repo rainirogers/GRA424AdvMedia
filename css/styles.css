@@ -4,36 +4,45 @@ html {
     scroll-behavior: smooth;
 }
 
+ol:link {
+    color: #010203;
+}
+
+ol:hover {
+    color: #dedede;
+}
+
 h1 {
-    font-family: 'Source Sans', sans-serif;
+    font-family: 'Exo', sans-serif;
     color:#010203;
     font-size: 25px;
-    padding-left: 1.4rem;
-    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-top: 2.5rem;
 }
 
 h2 {
-    font-family: 'Source Sans', sans-serif;
+    font-family: 'Exo', sans-serif;
     color:#010203;
     font-size: 20px;
-    padding-bottom: 1rem;
-    padding-left: 1.4rem;
+    padding-bottom: 1.5rem;
+    padding-left: 3rem;
 }
 
 p {
-    font-family: 'Source Sans', sans-serif;
+    font-family: 'Exo', sans-serif;
     color:#010203;
     font-size: 14.5px;
-    padding-bottom: 1rem;
-    padding-left: 1.4rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
     padding-top: 1rem;
 }
 
 ol {
-    font-family: 'Source Sans', sans-serif;
+    font-family: 'Exo', sans-serif;
     color:#010203;
-    font-size: 14.5px;
+    font-size: 30px;
     padding-left: 3rem;
+    list-style-type: none;
 }
 
 .body {
