@@ -105,13 +105,6 @@ ol {
     height: 100vh;
     margin: auto;
 }
-.lineexterior {
-    display: flex;
-    background: #fff;
-    width: 71.428571vw;
-    height: 71.428571vh;
-    margin: auto;
-}
 .lineinterior {
     display: flex;
     width: 42.857143vw;
