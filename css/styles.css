@@ -118,6 +118,19 @@ ol {
     height: 42.857143vh;
     margin: auto;
 }
+.container {
+    display: flex;
+    background-color: #dedede;
+    width: 100%;
+    height: 100vh;
+}
+.step1 {
+    display: flex;
+    justify-content: center;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    margin: auto;
+}
 .step2 {
     display: flex;
     justify-content: center;
@@ -125,9 +138,17 @@ ol {
     height: 71.428571vh;
     margin: auto;
 }
-.container {
+.step3 {
     display: flex;
-    background-color: #dedede;
-    width: 100%;
-    height: 100vh;
+    justify-content: center;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    margin: auto;
+}
+.step4 {
+    display: flex;
+    justify-content: center;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    margin: auto;
 }
