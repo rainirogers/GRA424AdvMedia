@@ -184,3 +184,10 @@ ol {
     height: 71.428571vh;
     margin: auto;
 }
+
+.colortransparencyI {
+    display: flex;
+    margin: auto;
+    width: 71.438571vw;
+    height: 71.438571vh;
+}
