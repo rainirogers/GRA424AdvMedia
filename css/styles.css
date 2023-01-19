@@ -52,6 +52,8 @@ ol {
 .webpagephoto {
     display: flex;
     background: #dedede;
+    width: 100vw;
+    height: 100vh;
     margin: auto;
 }
 
@@ -168,13 +170,13 @@ ol {
 }
 
 .photo {
-    padding-top: 6.8rem;
     width: 71.428571vw;
     height: 71.428571vw;
     position: relative;
     display: inline-block;
     margin: auto;
 }
+
 .photo .img-top {
     display: none;
     position: absolute;
@@ -182,33 +184,17 @@ ol {
     left: 0;
     z-index: 99;
 }
+
 .photo:hover .img-top {
-    padding-top: 6.8rem;
     display: inline;
 }
 
-.photoexterior {
+.photocontainer {
     display: flex;
-    background:#fff;
-    width: 71.428571vw;
-    height: 71.428571vh;
-    margin: auto;
-}
-
-.colormatchingbutterfly {
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    width: 71.438571vw;
-    height: 71.438571vh;
-}
-
-.colormatching {
-    display: flex;
-    justify-content: center;
-    width: 71.428571vw;
-    height: 71.428571vh;
-    margin: auto;
+    padding-top: 6.8rem;
+    background-color: #dedede;
+    width: 100%;
+    height: 100vh;
 }
 
 .colortransparencyI {
