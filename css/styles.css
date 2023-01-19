@@ -168,6 +168,7 @@ ol {
 }
 
 .photo {
+    padding-top: 6.8rem;
     width: 71.428571vw;
     height: 71.428571vw;
     position: relative;
@@ -182,6 +183,7 @@ ol {
     z-index: 99;
 }
 .photo:hover .img-top {
+    padding-top: 6.8rem;
     display: inline;
 }
 
