@@ -49,12 +49,11 @@ ol {
     margin: auto;
 }
 
-.webpagephoto {
+.container {
     display: flex;
-    background: #dedede;
-    width: 100vw;
+    background-color: #dedede;
+    width: 100%;
     height: 100vh;
-    margin: auto;
 }
 
 .exterior {
@@ -130,13 +129,6 @@ ol {
     margin: auto;
 }
 
-.container {
-    display: flex;
-    background-color: #dedede;
-    width: 100%;
-    height: 100vh;
-}
-
 .step1 {
     display: flex;
     justify-content: center;
@@ -169,6 +161,20 @@ ol {
     margin: auto;
 }
 
+.webpagephoto {
+    display: flex;
+    background: #dedede;
+    width: 100vw;
+    height: 100vh;
+}
+
+.photocontainer {
+    display: flex;
+    background-color: #dedede;
+    width: 100%;
+    margin: auto;
+}
+
 .photo {
     width: 71.428571vw;
     height: 71.428571vw;
@@ -183,18 +189,12 @@ ol {
     top: 0;
     left: 0;
     z-index: 99;
+    margin: auto;
 }
 
 .photo:hover .img-top {
     display: inline;
-}
-
-.photocontainer {
-    display: flex;
-    padding-top: 6.8rem;
-    background-color: #dedede;
-    width: 100%;
-    height: 100vh;
+    margin: auto;
 }
 
 .colortransparencyI {
