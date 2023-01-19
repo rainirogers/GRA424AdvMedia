@@ -160,6 +160,14 @@ ol {
     height: 71.428571vh;
     margin: auto;
 }
+
+.photointerior {
+    display: flex;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    margin: auto;
+}
+
 .img {
     display: flex;
     width: 42.857143vw;
