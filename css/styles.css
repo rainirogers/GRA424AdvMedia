@@ -49,6 +49,12 @@ ol {
     margin: auto;
 }
 
+.webpagephoto {
+    display: flex;
+    background: #dedede;
+    margin: auto;
+}
+
 .exterior {
     display: flex;
     background: #fff;
@@ -159,6 +165,24 @@ ol {
     width: 71.428571vw;
     height: 71.428571vh;
     margin: auto;
+}
+
+.photo {
+    width: 71.428571vw;
+    height: 71.428571vw;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+}
+.photo .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.photo:hover .img-top {
+    display: inline;
 }
 
 .photoexterior {
