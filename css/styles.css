@@ -160,3 +160,9 @@ ol {
     height: 71.428571vh;
     margin: auto;
 }
+.img {
+    display: flex;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+}
