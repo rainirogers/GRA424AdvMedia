@@ -169,11 +169,12 @@ ol {
     margin: auto;
 }
 
-.photointerior {
+.colormatchingbutterfly {
     display: flex;
-    width: 42.857143vw;
-    height: 42.857143vh;
     margin: auto;
+    justify-content: center;
+    width: 71.438571vw;
+    height: 71.438571vh;
 }
 
 .colormatching {
