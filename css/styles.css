@@ -169,9 +169,17 @@ ol {
     margin: auto;
 }
 
-.photo {
+.photointerior {
     display: flex;
     width: 42.857143vw;
     height: 42.857143vh;
+    margin: auto;
+}
+
+.colormatching {
+    display: flex;
+    justify-content: center;
+    width: 71.428571vw;
+    height: 71.428571vh;
     margin: auto;
 }
