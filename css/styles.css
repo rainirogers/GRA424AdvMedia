@@ -1,7 +1,22 @@
 html {
     --black: #010203;
+    background: #dedede;
     display: block;
     scroll-behavior: smooth;
+}
+
+a:link {
+    color: #010203;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #dedede;
+    color: #010203;
+}
+
+a:visited {
+    color: #010203;
 }
 
 h1 {
@@ -164,16 +179,13 @@ ol {
 .webpagephoto {
     display: flex;
     background: #dedede;
-    width: 100vw;
-    height: 100vh;
 }
 
 .photocontainer {
     display: flex;
     padding-top: 6.8rem;
     padding-bottom: 6.8rem;
-    background-color: #dedede;
-    width: 100%;
+    background: #dedede;
     margin: auto;
 }
 
