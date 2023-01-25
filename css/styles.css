@@ -270,6 +270,7 @@ ol {
 
 .cmoutersquare{
     display: flex;
+    background: #fff;
     width: 71.428571vw;
     height: 71.428571vh;
     margin: auto;
@@ -358,4 +359,19 @@ ol {
     width: 14.285714vw;
     height: 14.285714vh;
     background-color:#e5b57f;
+}
+
+.hoverphoto {
+    display: flex;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    position: absolute;
+    z-index: 1;
+}
+
+.hoverphoto img {
+    width: 42.857143vw;
+    height: 42.857143vh;
+    opacity: 0;
+    object-fit: cover;
 }
