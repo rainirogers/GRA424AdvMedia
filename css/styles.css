@@ -176,44 +176,6 @@ ol {
     margin: auto;
 }
 
-.colortransparencyI {
-    display: flex;
-    margin: auto;
-    width: 71.438571vw;
-    height: 71.438571vh;
-}
-
-.colortransparencyII {
-    display: flex;
-    margin: auto;
-    width: 71.438571vw;
-    height: 71.438571vh;
-}
-
-.colortransparencyIII {
-    display: flex;
-    margin: auto;
-    width: 71.438571vw;
-    height: 71.438571vh;
-}
-
-.valuematching {
-    display: flex;
-    margin: auto;
-    width: 71.438571vw;
-    height: 71.438571vh;
-}
-
-
-
-
-
-
-
-
-
-
-
 .cmpage {
     display: flex;
     background: #dedede;
@@ -229,37 +191,45 @@ ol {
     margin: auto;
 }
 
-.cminnersquare {
+.squarecontainer {
     display: flex;
     flex-wrap: wrap;
-    background: #fff;
-    width: 42.857143vw;
-    height: 42.857143vh;
     margin: auto;
-}
-
-.image {
-    position: absolute;
-    width: 42.857143vw;
-    height: 42.857143vh;
-    margin: auto;
-    object-fit: cover;
 }
 
 .hover {
-    position: absolute;
     display: flex;
-    flex-wrap: wrap;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+    z-index: 1;
+}
+
+.image {
+    display: flex;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+}
+
+.hover img:hover {
+    opacity: 100;
+}
+
+.hover img {
     background: #fff;
     width: 42.857143vw;
     height: 42.857143vh;
-    margin-left: 14.285714vw;
-    margin-top: 14.285714vh;
+    object-fit: cover;
 }
 
 .square {
     width: 14.285714vw;
     height: 14.285714vh;
+    display: flex;
     margin: 0;
 }
 
@@ -297,4 +267,32 @@ ol {
 
 #s9 {
     background: #e5b57f;
+}
+
+.colortransparencyI {
+    display: flex;
+    margin: auto;
+    width: 71.438571vw;
+    height: 71.438571vh;
+}
+
+.colortransparencyII {
+    display: flex;
+    margin: auto;
+    width: 71.438571vw;
+    height: 71.438571vh;
+}
+
+.colortransparencyIII {
+    display: flex;
+    margin: auto;
+    width: 71.438571vw;
+    height: 71.438571vh;
+}
+
+.valuematching {
+    display: flex;
+    margin: auto;
+    width: 71.438571vw;
+    height: 71.438571vh;
 }
