@@ -261,3 +261,101 @@ ol {
     width: 71.438571vw;
     height: 71.438571vh;
 }
+
+.cmcontainer {
+    display: flex;
+    width: 100%;
+    height: 100%
+}
+
+.cmoutersquare{
+    display: flex;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    margin: auto;
+}
+
+.cminnersquare {
+    display: flex;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+
+.cmsmallsquarecontainer {
+    display: flex;
+    width: 100%;
+    float: left;
+    flex-wrap: wrap;
+}
+
+.hoverphoto {
+    display: flex;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    position: absolute;
+    z-index: 1;
+}
+
+.smallsquare1 {
+    display: flex;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    background-color:#311c10;
+}
+
+.smallsquare2 {
+    display: flex;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    background-color:#ed2a26;
+}
+
+.smallsquare3 {
+    display: flex;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    background-color:#ec5636;
+}
+
+.smallsquare4 {
+    display: flex;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    background-color:#054039;
+}
+
+.smallsquare5 {
+    display: flex;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    background-color:#5659a7;
+}
+
+.smallsquare6 {
+    display: flex;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    background-color:#51c0ab;
+}
+
+.smallsquare7 {
+    display: flex;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    background-color:#152144;
+}
+
+.smallsquare8 {
+    display: flex;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    background-color:#723818;
+}
+
+.smallsquare9 {
+    display: flex;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    background-color:#e5b57f;
+}
