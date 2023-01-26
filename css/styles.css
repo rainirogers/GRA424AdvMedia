@@ -176,99 +176,6 @@ ol {
     margin: auto;
 }
 
-.cmpage {
-    display: flex;
-    background: #dedede;
-    width: 100vw;
-    height: 100vh;
-}
-
-.cmoutersquare {
-    display: flex;
-    background: #fff;
-    width: 71.438571vw;
-    height: 71.438571vh;
-    margin: auto;
-}
-
-.squarecontainer {
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-}
-
-.hover {
-    display: flex;
-    width: 42.857143vw;
-    height: 42.857143vh;
-    margin: auto;
-    z-index: 1;
-}
-
-.image {
-    display: flex;
-    width: 42.857143vw;
-    height: 42.857143vh;
-    margin: auto;
-    position: absolute;
-    z-index: 1;
-    object-fit: cover;
-}
-
-.hover img:hover {
-    opacity: 100;
-}
-
-.hover img {
-    background: #fff;
-    width: 42.857143vw;
-    height: 42.857143vh;
-    object-fit: cover;
-}
-
-.square {
-    width: 14.285714vw;
-    height: 14.285714vh;
-    display: flex;
-    margin: 0;
-}
-
-#s1 {
-    background: #311c10;
-}
-
-#s2 {
-    background: #054039;
-}
-
-#s3 {
-    background: #152144;
-}
-
-#s4 {
-    background: #ed2a26;
-}
-
-#s5 {
-    background: #5659a7;
-}
-
-#s6 {
-    background: #723818;
-}
-
-#s7 {
-    background: #ec5636;
-}
-
-#s8 {
-    background: #51c0ab;
-}
-
-#s9 {
-    background: #e5b57f;
-}
-
 .colortransparencyI {
     display: flex;
     margin: auto;
@@ -295,4 +202,66 @@ ol {
     margin: auto;
     width: 71.438571vw;
     height: 71.438571vh;
+}
+
+
+
+
+
+
+
+
+.cmwebpage {
+    display: flex;
+    background: #dedede;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.cmexterior {
+    display: flex;
+    background: #fff;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    margin: auto;
+}
+
+.cminterior {
+    display: flex;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+
+.img-bottom {
+    display: flex;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+
+.img-top {
+    display: flex;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    object-fit: cover;
+}
+
+.cminterior {
+    width: 42.857143vw;
+    height: 42.857143vh;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+}
+.cminterior .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.cminterior:hover .img-top {
+    display: inline;
 }
