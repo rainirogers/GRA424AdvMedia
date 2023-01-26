@@ -294,19 +294,6 @@ ol {
     display: inline;
 }
 
-.fsimg-bottom {
-    display: flex;
-    width: 42.857143vw;
-    height: 42.857143vh;
-    margin: auto;
-}
-
-.fsimg-top {
-    display: flex;
-    width: 42.857143vw;
-    height: 42.857143vh;
-}
-
 .fscminterior {
     width: 42.857143vw;
     height: 42.857143vh;
@@ -361,3 +348,37 @@ ol {
 .tinterior:hover .timg-top {
     display: inline;
 }
+
+.fsimg-bottom {
+    display: flex;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+}
+
+.fsimg-top {
+    display: flex;
+    width: 42.857143vw;
+    height: 42.857143vh;
+}
+
+.fsinterior {
+    width: 42.857143vw;
+    height: 42.857143vh;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+}
+
+.fsinterior .fsimg-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.fsinterior:hover .fsimg-top {
+    display: inline;
+}
+
