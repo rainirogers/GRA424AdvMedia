@@ -331,6 +331,7 @@ ol {
     display: flex;
     width: 42.857143vw;
     height: 42.857143vh;
+    object-fit: cover;
     margin: auto;
 }
 
@@ -338,6 +339,7 @@ ol {
     display: flex;
     width: 42.857143vw;
     height: 42.857143vh;
+    object-fit: cover;
 }
 
 .tinterior {
