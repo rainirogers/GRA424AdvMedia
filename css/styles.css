@@ -368,3 +368,39 @@ ol {
     display: inline;
 }
 
+
+
+
+.tdwebpage {
+    display: flex;
+    background: #dedede;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+}
+
+.tdexterior {
+    display: flex;
+    background: #000000;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    margin: auto;
+}
+
+.tdinterior {
+    width: 42.857143vw;
+    height: 42.857143vh;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    object-fit: cover;
+}
+
+.threed1 {
+    width: 42.857143vw;
+    height: 42.857143vh;
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    object-fit: cover;
+}
