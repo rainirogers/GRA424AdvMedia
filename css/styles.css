@@ -5,22 +5,22 @@ html {
     scroll-behavior: smooth;
 }
 
-a.HomeLink {
+a.Index {
     background-color: #dedede;
     color: #010203;
 }
 
-a.HomeLink:link {
+a.Index:link {
     color: #010203;
     text-decoration: none;
 }
 
-a.HomeLink:hover{
+a.Index:hover{
     background-color: #dedede;
     color: #010203;
 }
 
-a.HomeLink:visited {
+a.Index:visited {
     color: #010203;
 }
 
