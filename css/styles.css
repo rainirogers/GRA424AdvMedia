@@ -5,17 +5,36 @@ html {
     scroll-behavior: smooth;
 }
 
-a:link {
+a.HomeLink {
+    background-color: #dedede;
+    color: #010203;
+}
+
+a.HomeLink:link {
     color: #010203;
     text-decoration: none;
 }
 
-a:hover {
+a.HomeLink:hover{
+    background-color: #dedede;
+    color: #010203;
+}
+
+a.HomeLink:visited {
+    color: #010203;
+}
+
+a.PageLink:link {
+    color: #010203;
+    text-decoration: none;
+}
+
+a.PageLink:hover {
     background-color: #fff;
     color: #010203;
 }
 
-a:visited {
+a.PageLink:visited {
     color: #010203;
 }
 
@@ -60,6 +79,13 @@ ol {
     padding-bottom: 3rem;
     padding-left: 3rem;
     list-style-type: none;
+}
+
+.HomeLink {
+    font-family: 'Exo', sans-serif;
+    color:#010203;
+    font-size: 25px;
+    padding-top: 2.5rem;
 }
 
 .body {
