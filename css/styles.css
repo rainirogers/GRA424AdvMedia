@@ -297,6 +297,39 @@ ol {
     height: 71.438571vh;
 }
 
+.twebpage {
+    display: flex;
+    background: #dedede;
+    width: 100vw;
+    height: 100vh;
+}
+
+.tsquare {
+    display: flex;
+    background: #fff;
+    width: 71.428571vw;
+    height: 71.428571vh;
+    margin: auto;
+}
+
+.tinner {
+    display: flex;
+    background: #fff;
+    width: 42.857143vw;
+    height: 42.857143vh;
+    margin: auto;
+    object-fit: cover;
+}
+
+.tsmall {
+    display: flex;
+    position: absolute;
+    width: 14.285714vw;
+    height: 14.285714vh;
+    margin: 28.571428vh 28.571428vw 28.571428vh 28.571428vw;
+    object-fit: cover;
+}
+
 .ftimg-bottom {
     display: flex;
     width: 42.857143vw;
@@ -399,49 +432,19 @@ ol {
     margin: auto;
 }
 
-.threed1 {
-    width: 71.428571vw;
-    height: 71.428571vh;
-    position: relative;
-    display: inline-block;
-    margin: auto;
-    object-fit: cover;
-}
-
-
-
-
-
-
-.twebpage {
+.tdinterior {
     display: flex;
-    background: #dedede;
-    width: 100vw;
-    height: 100vh;
-}
-
-.tsquare {
-    display: flex;
-    background: #fff;
-    width: 71.428571vw;
-    height: 71.428571vh;
-    margin: auto;
-}
-
-.tinner {
-    display: flex;
-    background: #fff;
+    background: #000000;
     width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
-    object-fit: cover;
 }
 
-.tsmall {
-    display: flex;
-    position: absolute;
-    width: 14.285714vw;
-    height: 14.285714vh;
-    margin: 28.571428vh 28.571428vw 28.571428vh 28.571428vw;
+.threed1 {
+    width: 42.857143vw;
+    height: 42.857143vh;
+    position: relative;
+    display: inline-block;
+    margin: auto;
     object-fit: cover;
 }
