@@ -1,27 +1,6 @@
 <html>
   <head>
     <style>
-      @-webkit-keyframes color_change {
-	    from { background-color: #464646; }
-	    to { background-color: #ce3927; }
-      }
-      @-moz-keyframes color_change {
-        from { background-color: #464646; }
-        to { background-color: #ce3927; }
-      }
-      @-ms-keyframes color_change {
-        from { background-color: #464646; }
-        to { background-color: #ce3927; }
-      }
-      @-o-keyframes color_change {
-        from { background-color: #464646; }
-        to { background-color: #ce3927; }
-      }
-      @keyframes color_change {
-        from { background-color: #464646; }
-        to { background-color: #ce3927; }
-      }
-
       html {
         background: #dedede;
         display: block;
@@ -49,16 +28,84 @@
         margin: auto;
       }
 
-      .big1 {
-        background-color: #464646;
+      .innercontainer {
+        display: flex;
+        background-color: #fff;
         width: 42.857143vw;
         height: 42.857143vh;
-        -webkit-animation: color_change 3s infinite alternate;
-        -moz-animation: color_change 3s infinite alternate;
-        -ms-animation: color_change 3s infinite alternate;
-        -o-animation: color_change 3s infinite alternate;
-        animation: color_change 3s infinite alternate;
         margin: auto;
+      }
+
+      .bigtopcontainer {
+        display: flex;
+        background-color: #fff;
+        width: 42.857143vw;
+        height: 21.4285715vh;
+        margin: top;
+      }
+
+      .big1 {
+        background-color: #ce3927;
+        width: 21.4285715vw;
+        height: 21.4285715vh;
+        animation-name: big1;
+        animation-duration: 6s;
+        margin: left;
+      }
+
+      @keyframes big1 {
+	    from { background-color: #ce3927; }
+	    to { background-color: #464646; }
+      }
+
+      .big2 {
+        background-color: #d65935;
+        width: 21.4285715vw;
+        height: 21.4285715vh;
+        animation-name: big2;
+        animation-duration: 6s;
+        margin: right;
+      }
+
+      @keyframes big2 {
+	    from { background-color: #d65935; }
+	    to { background-color: #626262; }
+      }
+
+      .bigbottomcontainer {
+        display: flex;
+        background-color: #fff;
+        width: 42.857143vw;
+        height: 21.4285715vh;
+        margin: auto;
+      }
+
+      .big3 {
+        background-color: #e88e62;
+        width: 21.4285715vw;
+        height: 21.4285715vh;
+        animation-name: big3;
+        animation-duration: 6s;
+        margin: left;
+      }
+
+      @keyframes big3 {
+	    from { background-color: #e88e62; }
+	    to { background-color: #999999; }
+      }
+
+      .big4 {
+        background-color: #de7449;
+        width: 21.4285715vw;
+        height: 21.4285715vh;
+        animation-name: big4;
+        animation-duration: 6s;
+        margin: left;
+      }
+
+      @keyframes big4 {
+	    from { background-color: #de7449; }
+	    to { background-color: #7e7e7e; }
       }
 
       
@@ -70,8 +117,17 @@
 <body>
   <div class="linewebpage">
     <div class="container">
-      <div class="big1"></div>
-      <div class="big2"></div>
+      <div class="innercontainer">
+        <div class="bigtopcontainer">
+          <div class="big1"></div>
+          <div class="big2"></div>
+        </div>
+        <div class="bigbottomcontainer">
+          <div class="big3"></div>
+          <div class="big4"></div>
+        </div>
+        
+      </div>
     </div>
   </div>
 </body>
