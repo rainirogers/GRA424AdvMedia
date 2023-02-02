@@ -29,28 +29,21 @@
       }
 
       .innercontainer {
-        display: flex;
         background-color: #fff;
         width: 42.857143vw;
         height: 42.857143vh;
         margin: auto;
-      }
-
-      .bigtopcontainer {
-        display: flex;
-        background-color: #fff;
-        width: 42.857143vw;
-        height: 42.857143vh;
-        margin: auto;
+        overflow: hidden;
       }
 
       .big1 {
+        display: flex;
         background-color: #ce3927;
-        width: 21.4285715vw;
-        height: 21.4285715vh;
+        width: 42.857143vw;
+        height: 42.857143vh;
         animation-name: big1;
         animation-duration: 6s;
-        position: absolute;
+        margin: auto;
       }
 
       @keyframes big1 {
@@ -59,13 +52,16 @@
       }
 
       .big2 {
+        display: flex;
         background-color: #d65935;
         width: 21.4285715vw;
-        height: 21.4285715vh;
+        height: 42.857143vh;
         animation-name: big2;
         animation-duration: 6s;
-        position: absolute;
-        right: 221px;
+        position: relative;
+        margin: auto;
+        top: -42.857143vh;
+        left: 32.15vh;
       }
 
       @keyframes big2 {
@@ -74,14 +70,14 @@
       }
 
       .big3 {
+        display: flex;
         background-color: #e88e62;
-        width: 21.4285715vw;
+        width: 42.857143vw;
         height: 21.4285715vh;
         animation-name: big3;
         animation-duration: 6s;
-        position: absolute;
-        bottom: 218px;
-        right: 386px;
+        position: relative;
+        top: -42.857143vh;
       }
 
       @keyframes big3 {
@@ -90,14 +86,16 @@
       }
 
       .big4 {
+        display: flex;
         background-color: #de7449;
         width: 21.4285715vw;
         height: 21.4285715vh;
         animation-name: big4;
         animation-duration: 6s;
         position: absolute;
-        bottom: 218px;
-        left: 386px;
+        margin: auto;
+        top: -85.7vh;
+        left: -32.1vw;
       }
 
       @keyframes big4 {
@@ -115,12 +113,18 @@
   <div class="linewebpage">
     <div class="container">
       <div class="innercontainer">
-        <div class="bigtopcontainer">
-          <div class="big1"></div>
-          <div class="big2"></div>
-          <div class="big3"></div>
-          <div class="big4"></div>
-        </div>
+          <div class="big1">
+            <div class="small1"></div>
+          </div>
+          <div class="big2">
+            <div class="small2"></div>
+          </div>
+          <div class="big3">
+            <div class="small3"></div>
+          </div>
+          <div class="big4">
+            <div class="small4"></div>
+          </div>
       </div>
     </div>
   </div>
