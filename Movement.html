@@ -1,31 +1,79 @@
-<!doctype html>
 <html>
+  <head>
+    <style>
+      @-webkit-keyframes color_change {
+	    from { background-color: #464646; }
+	    to { background-color: #ce3927; }
+      }
+      @-moz-keyframes color_change {
+        from { background-color: #464646; }
+        to { background-color: #ce3927; }
+      }
+      @-ms-keyframes color_change {
+        from { background-color: #464646; }
+        to { background-color: #ce3927; }
+      }
+      @-o-keyframes color_change {
+        from { background-color: #464646; }
+        to { background-color: #ce3927; }
+      }
+      @keyframes color_change {
+        from { background-color: #464646; }
+        to { background-color: #ce3927; }
+      }
 
-<head>
-  <meta charset="utf-8">
+      html {
+        background: #dedede;
+        display: block;
+        scroll-behavior: smooth;
+        margin: auto;
+      }
 
-  <title>Movement</title>
+      body {
+        display: flex;
+        margin: auto;
+      }
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+      .linewebpage {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        margin: auto;
+      }
 
-  <!-- Load Styles -->
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Exo:wght@700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+      .container {
+        display: flex;
+        background-color: #fff;
+        width: 71.428571vw;
+        height: 71.428571vh;
+        margin: auto;
+      }
 
+      .big1 {
+        background-color: #464646;
+        width: 42.857143vw;
+        height: 42.857143vh;
+        -webkit-animation: color_change 3s infinite alternate;
+        -moz-animation: color_change 3s infinite alternate;
+        -ms-animation: color_change 3s infinite alternate;
+        -o-animation: color_change 3s infinite alternate;
+        animation: color_change 3s infinite alternate;
+        margin: auto;
+      }
 
-</head>
+      
+
+    </style>
+  </head>
+
 
 <body>
-  <!-- Add your content here -->
-
-  <!-- Load Scripts -->
-  <script src="js/scripts.js"></script>
-
+  <div class="linewebpage">
+    <div class="container">
+      <div class="big1"></div>
+      <div class="big2"></div>
+    </div>
+  </div>
 </body>
+
 </html>
