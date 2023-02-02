@@ -40,8 +40,8 @@
         display: flex;
         background-color: #fff;
         width: 42.857143vw;
-        height: 21.4285715vh;
-        margin: top;
+        height: 42.857143vh;
+        margin: auto;
       }
 
       .big1 {
@@ -50,7 +50,7 @@
         height: 21.4285715vh;
         animation-name: big1;
         animation-duration: 6s;
-        margin: left;
+        position: absolute;
       }
 
       @keyframes big1 {
@@ -64,20 +64,13 @@
         height: 21.4285715vh;
         animation-name: big2;
         animation-duration: 6s;
-        margin: right;
+        position: absolute;
+        right: 221px;
       }
 
       @keyframes big2 {
 	    from { background-color: #d65935; }
 	    to { background-color: #626262; }
-      }
-
-      .bigbottomcontainer {
-        display: flex;
-        background-color: #fff;
-        width: 42.857143vw;
-        height: 21.4285715vh;
-        margin: auto;
       }
 
       .big3 {
@@ -86,7 +79,9 @@
         height: 21.4285715vh;
         animation-name: big3;
         animation-duration: 6s;
-        margin: left;
+        position: absolute;
+        bottom: 218px;
+        right: 386px;
       }
 
       @keyframes big3 {
@@ -100,7 +95,9 @@
         height: 21.4285715vh;
         animation-name: big4;
         animation-duration: 6s;
-        margin: left;
+        position: absolute;
+        bottom: 218px;
+        left: 386px;
       }
 
       @keyframes big4 {
@@ -121,12 +118,9 @@
         <div class="bigtopcontainer">
           <div class="big1"></div>
           <div class="big2"></div>
-        </div>
-        <div class="bigbottomcontainer">
           <div class="big3"></div>
           <div class="big4"></div>
         </div>
-        
       </div>
     </div>
   </div>
