@@ -54,6 +54,15 @@ h2 {
     padding-left: 3rem;
 }
 
+h3 {
+    font-family: 'Exo', sans-serif;
+    color:#010203;
+    font-size: 14.5px;
+    padding-bottom: 1rem;
+    padding-left: 1.3rem;
+    padding-top: 1rem;
+}
+
 p {
     font-family: 'Exo', sans-serif;
     color:#010203;
@@ -451,4 +460,19 @@ ol {
 
 .cls-3 {
     fill:#fff;
+}
+
+.typefacepages {
+    display: flex;
+    width: 98.5vw;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 2.5rem;
+}
+
+.typefacepages img {
+    margin: auto;
+    background-color: #fff;
+    width: 30vw;
+    height: auto;
 }
