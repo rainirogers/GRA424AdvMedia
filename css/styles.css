@@ -39,24 +39,24 @@ a.PageLink:visited {
 }
 
 h1 {
-    font-family: 'Exo', sans-serif;
     color:#010203;
+    font-family: 'Exo', sans-serif;
     font-size: 25px;
     padding-left: 3rem;
     padding-top: 2.5rem;
 }
 
 h2 {
-    font-family: 'Exo', sans-serif;
     color:#010203;
+    font-family: 'Exo', sans-serif;
     font-size: 20px;
     padding-bottom: 1.5rem;
     padding-left: 3rem;
 }
 
 h3 {
-    font-family: 'Exo', sans-serif;
     color:#010203;
+    font-family: 'Exo', sans-serif;
     font-size: 14.5px;
     padding-bottom: 1rem;
     padding-left: 1.3rem;
@@ -64,8 +64,8 @@ h3 {
 }
 
 p {
-    font-family: 'Exo', sans-serif;
     color:#010203;
+    font-family: 'Exo', sans-serif;
     font-size: 14.5px;
     padding-bottom: 2rem;
     padding-left: 3rem;
@@ -73,8 +73,8 @@ p {
 }
 
 p2 {
-    font-family: 'Exo', sans-serif;
     color:#010203;
+    font-family: 'Exo', sans-serif;
     font-size: 14.5px;
     padding-bottom: 6rem;
     padding-left: 3rem;
@@ -82,17 +82,17 @@ p2 {
 }
 
 ol {
-    font-family: 'Exo', sans-serif;
     color:#010203;
+    font-family: 'Exo', sans-serif;
     font-size: 30px;
+    list-style-type: none;
     padding-bottom: 2rem;
     padding-left: 3rem;
-    list-style-type: none;
 }
 
 .HomeLink {
-    font-family: 'Exo', sans-serif;
     color:#010203;
+    font-family: 'Exo', sans-serif;
     font-size: 25px;
     padding-top: 2.5rem;
 }
@@ -102,175 +102,175 @@ ol {
 }
 
 .webpage {
-    display: flex;
     background: #dedede;
-    width: 100vw;
+    display: flex;
     height: 100vh;
     margin: auto;
+    width: 100vw;
 }
 
 .container {
-    display: flex;
     background-color: #dedede;
-    width: 100%;
+    display: flex;
     height: 100vh;
+    width: 100%;
 }
 
 .exterior {
-    display: flex;
     background: #fff;
-    width: 71.428571vw;
+    display: flex;
     height: 71.428571vh;
     margin: auto;
+    width: 71.428571vw;
 }
 
 .interior {
-    display: flex;
     background: #010203;
-    width: 42.857143vw;
+    display: flex;
     height: 42.857143vh;
     margin: auto;
+    width: 42.857143vw;
 }
 
 .interiorinterior {
-    display: flex;
     background: #fff;
-    width: 14.285714vw;
+    display: flex;
     height: 14.285714vh;
     margin: auto;
+    width: 14.285714vw;
 }
 
 .secondwebpage {
-    display: flex;
     background: #dedede;
-    width: 100vw;
+    display: flex;
     height: 100vh;
     margin: auto;
+    width: 100vw;
 }
 
 .secondexterior {
-    display: flex;
     background: #fff;
-    width: 71.428571vw;
+    display: flex;
     height: 71.428571vh;
     margin: auto;
+    width: 71.428571vw;
 }
 
 .secondinterior {
-    display: flex;
-    border-style: solid;
     border-color: #dedede;
+    border-style: solid;
     border-width: .25px;
-    width: 42.857143vw;
+    display: flex;
     height: 42.857143vh;
     margin: auto;
+    width: 42.857143vw;
 }
 
 .secondinteriorinterior {
-    display: flex;
     background: #010203;
-    width: 14.285714vw;
+    display: flex;
     height: 14.285714vh;
     margin: auto;
+    width: 14.285714vw;
 }
 
 .linewebpage {
-    display: flex;
     background: #dedede;
-    width: 100vw;
+    display: flex;
     height: 100vh;
     margin: auto;
+    width: 100vw;
 }
 
 .lineinterior {
     display: flex;
-    width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
+    width: 42.857143vw;
 }
 
 .step1 {
     display: flex;
-    justify-content: center;
-    width: 71.428571vw;
     height: 71.428571vh;
+    justify-content: center;
     margin: auto;
+    width: 71.428571vw;
 }
 
 .step2 {
     display: flex;
-    justify-content: center;
-    width: 71.428571vw;
     height: 71.428571vh;
+    justify-content: center;
     margin: auto;
+    width: 71.428571vw;
 }
 
 .step3 {
     display: flex;
-    justify-content: center;
-    width: 71.428571vw;
     height: 71.428571vh;
+    justify-content: center;
     margin: auto;
+    width: 71.428571vw;
 }
 
 .step4 {
     display: flex;
-    justify-content: center;
-    width: 71.428571vw;
     height: 71.428571vh;
+    justify-content: center;
     margin: auto;
+    width: 71.428571vw;
 }
 
 .cmwebpage {
-    display: flex;
     background: #dedede;
-    width: 100vw;
+    display: flex;
     height: 100vh;
     margin: auto;
+    width: 100vw;
 }
 
 .cmexterior {
-    display: flex;
     background: #fff;
-    width: 71.428571vw;
+    display: flex;
     height: 71.428571vh;
     margin: auto;
+    width: 71.428571vw;
 }
 
 .cminterior {
     display: flex;
-    width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
+    width: 42.857143vw;
 }
 
 .img-bottom {
     display: flex;
-    width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
+    width: 42.857143vw;
 }
 
 .img-top {
     display: flex;
-    width: 42.857143vw;
     height: 42.857143vh;
     object-fit: cover;
+    width: 42.857143vw;
 }
 
 .cminterior {
-    width: 42.857143vw;
+    display: inline-block;
     height: 42.857143vh;
     position: relative;
-    display: inline-block;
     margin: auto;
+    width: 42.857143vw;
 }
 
 .cminterior .img-top {
     display: none;
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
     z-index: 99;
 }
 
@@ -280,91 +280,91 @@ ol {
 
 .colortransparencyI {
     display: flex;
+    height: 71.438571vh;
     margin: auto;
     width: 71.438571vw;
-    height: 71.438571vh;
 }
 
 .colortransparencyII {
     display: flex;
+    height: 71.438571vh;
     margin: auto;
     width: 71.438571vw;
-    height: 71.438571vh;
 }
 
 .colortransparencyIII {
     display: flex;
+    height: 71.438571vh;
     margin: auto;
     width: 71.438571vw;
-    height: 71.438571vh;
 }
 
 .valuematching {
     display: flex;
+    height: 71.438571vh;
     margin: auto;
     width: 71.438571vw;
-    height: 71.438571vh;
 }
 
 .twebpage {
-    display: flex;
     background: #dedede;
-    width: 100vw;
+    display: flex;
     height: 100vh;
+    width: 100vw;
 }
 
 .tsquare {
-    display: flex;
     background: #fff;
-    width: 71.428571vw;
+    display: flex;
     height: 71.428571vh;
     margin: auto;
+    width: 71.428571vw;
 }
 
 .tinner {
-    display: flex;
     background: #fff;
-    width: 42.857143vw;
+    display: flex;
     height: 42.857143vh;
     margin: auto;
     object-fit: cover;
+    width: 42.857143vw;
 }
 
 .tsmall {
     display: flex;
-    position: absolute;
-    width: 14.285714vw;
     height: 14.285714vh;
     margin: 28.571428vh 28.571428vw 28.571428vh 28.571428vw;
     object-fit: cover;
+    position: absolute;
+    width: 14.285714vw;
 }
 
 .ftimg-bottom {
     display: flex;
-    width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
+    width: 42.857143vw;
 }
 
 .ftimg-top {
     display: flex;
-    width: 42.857143vw;
     height: 42.857143vh;
+    width: 42.857143vw;
 }
 
 .ftcminterior {
-    width: 42.857143vw;
-    height: 42.857143vh;
-    position: relative;
     display: inline-block;
+    height: 42.857143vh;
     margin: auto;
+    position: relative;
+    width: 42.857143vw;
 }
 
 .ftcminterior .ftimg-top {
     display: none;
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
     z-index: 99;
 }
 
@@ -373,18 +373,18 @@ ol {
 }
 
 .fscminterior {
-    width: 42.857143vw;
-    height: 42.857143vh;
-    position: relative;
     display: inline-block;
+    height: 42.857143vh;
     margin: auto;
+    position: relative;
+    width: 42.857143vw;
 }
 
 .fscminterior .ftimg-top {
     display: none;
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
     z-index: 99;
 }
 
@@ -394,30 +394,30 @@ ol {
 
 .fsimg-bottom {
     display: flex;
-    width: 42.857143vw;
     height: 42.857143vh;
     margin: auto;
+    width: 42.857143vw;
 }
 
 .fsimg-top {
     display: flex;
-    width: 42.857143vw;
     height: 42.857143vh;
+    width: 42.857143vw;
 }
 
 .fsinterior {
-    width: 42.857143vw;
-    height: 42.857143vh;
-    position: relative;
     display: inline-block;
+    height: 42.857143vh;
     margin: auto;
+    position: relative;
+    width: 42.857143vw;
 }
 
 .fsinterior .fsimg-top {
     display: none;
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
     z-index: 99;
 }
 
@@ -426,36 +426,36 @@ ol {
 }
 
 .tdwebpage {
-    display: flex;
     background: #dedede;
-    width: 100vw;
+    display: flex;
     height: 100vh;
     margin: auto;
+    width: 100vw;
 }
 
 .tdexterior {
-    display: flex;
     background: #000000;
-    width: 71.428571vw;
+    display: flex;
     height: 71.428571vh;
     margin: auto;
+    width: 71.428571vw;
 }
 
 .tdinterior {
-    display: flex;
     background: #000000;
-    width: 42.857143vw;
+    display: flex;
     height: 42.857143vh;
     margin: auto;
+    width: 42.857143vw;
 }
 
 .threed1 {
-    width: 42.857143vw;
-    height: 42.857143vh;
-    position: relative;
     display: inline-block;
+    height: 42.857143vh;
     margin: auto;
+    position: relative;
     object-fit: contain;
+    width: 42.857143vw;
 }
 
 .cls-3 {
@@ -464,15 +464,15 @@ ol {
 
 .typefacepages {
     display: flex;
-    width: 98.5vw;
     height: auto;
     overflow: hidden;
     padding-bottom: 2.5rem;
+    width: 98.5vw;
 }
 
 .typefacepages img {
-    margin: auto;
     background-color: #fff;
-    width: 30vw;
     height: auto;
+    margin: auto;
+    width: 30vw;
 }
