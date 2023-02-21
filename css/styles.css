@@ -491,3 +491,9 @@ ol {
     margin: auto;
     width: 30vw;
 }
+
+.layoutpages img {
+    border-color: #fff;
+    border-style: solid;
+    border-width: .25px;
+}
