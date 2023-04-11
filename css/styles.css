@@ -59,7 +59,7 @@ h3 {
     font-family: 'Exo', sans-serif;
     font-size: 14.5px;
     padding-bottom: 1rem;
-    padding-left: 1.3rem;
+    padding-left: 3rem;
     padding-top: 1rem;
 }
 
@@ -496,4 +496,58 @@ ol {
     border-color: #fff;
     border-style: solid;
     border-width: .25px;
+}
+
+.Desktop {
+    display: flex;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 1.2rem;
+    width: 98.5vw;
+}
+
+.Desktop img {
+    background-color: #fff;
+    border-color: #fff;
+    border-style: solid;
+    border-width: .25px;
+    height: auto;
+    margin: auto;
+    width: 30vw;
+}
+
+.Tablet {
+    display: flex;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 1.2rem;
+    width: 98.5vw;
+}
+
+.Tablet img {
+    background-color: #fff;
+    border-color: #fff;
+    border-style: solid;
+    border-width: .25px;
+    height: auto;
+    margin: auto;
+    width: 30vw;
+}
+
+.Mobile {
+    display: flex;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 1.2rem;
+    width: 98.5vw;
+}
+
+.Mobile img {
+    background-color: #fff;
+    border-color: #fff;
+    border-style: solid;
+    border-width: .25px;
+    height: auto;
+    margin: auto;
+    width: 30vw;
 }
