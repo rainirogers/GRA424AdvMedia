@@ -42,7 +42,7 @@ h1 {
     color:#010203;
     font-family: 'Exo', sans-serif;
     font-size: 25px;
-    padding-left: 3rem;
+    padding-left: 2rem;
     padding-top: 2.5rem;
 }
 
@@ -51,7 +51,7 @@ h2 {
     font-family: 'Exo', sans-serif;
     font-size: 20px;
     padding-bottom: 1.5rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
 }
 
 h3 {
@@ -59,7 +59,7 @@ h3 {
     font-family: 'Exo', sans-serif;
     font-size: 14.5px;
     padding-bottom: 1rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
     padding-top: 1rem;
 }
 
@@ -68,7 +68,7 @@ p {
     font-family: 'Exo', sans-serif;
     font-size: 14.5px;
     padding-bottom: 2rem;
-    padding-left: 3rem;
+    padding-left: 2.1rem;
     padding-top: 1rem;
 }
 
@@ -77,7 +77,7 @@ p2 {
     font-family: 'Exo', sans-serif;
     font-size: 14.5px;
     padding-bottom: 6rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
     padding-top: 1rem;
 }
 
@@ -87,7 +87,7 @@ ol {
     font-size: 30px;
     list-style-type: none;
     padding-bottom: 2rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
 }
 
 .HomeLink {
